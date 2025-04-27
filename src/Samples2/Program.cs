@@ -1,6 +1,7 @@
-﻿using Microsoft.SemanticKernel;
+﻿// 2. 使用聊天完成对话示例
+
+using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
-using Microsoft.SemanticKernel.Connectors.OpenAI;
 
 #pragma warning disable SKEXP0010
 

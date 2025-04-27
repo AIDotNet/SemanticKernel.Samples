@@ -5,8 +5,15 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="Microsoft.SemanticKernel" Version="$(SemanticVersion)" />
+        <PackageReference Include="Microsoft.SemanticKernel.Yaml" Version="$(SemanticVersion)" />
     </ItemGroup>
-    
+
+    <ItemGroup>
+      <None Remove="Resources\GenerateStory.yaml" />
+      <EmbeddedResource Include="Resources\GenerateStory.yaml" />
+    </ItemGroup>
+
 </Project>

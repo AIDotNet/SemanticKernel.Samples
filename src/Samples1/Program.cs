@@ -1,4 +1,6 @@
-﻿using Microsoft.SemanticKernel;
+﻿// 1. 快速开始第一个示例
+
+using Microsoft.SemanticKernel;
 
 #pragma warning disable SKEXP0010
 

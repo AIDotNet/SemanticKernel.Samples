@@ -1,0 +1,17 @@
+name: GenerateStory
+template: |
+  将一个关于 {{$topic}} 的故事生成一个长度为 {{$length}} 的故事。
+template_format: semantic-kernel
+description: 生成关于某个主题的故事的函数。
+input_variables:
+  - name: topic
+    description: 故事的主题。
+    is_required: true
+  - name: length
+    description: 故事中的句子数。
+    is_required: true
+output_variable:
+  description: 生成的故事。
+execution_settings:
+  default:
+    temperature: 0.6

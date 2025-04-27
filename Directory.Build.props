@@ -1,0 +1,15 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>latest</LangVersion>
+        <Authors>
+            由TokenAI团队提供
+        </Authors>
+        <Company>
+            TokenAI
+        </Company>
+        <SemanticVersion>1.47.0</SemanticVersion>
+    </PropertyGroup>
+</Project>
